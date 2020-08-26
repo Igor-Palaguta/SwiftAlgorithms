@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='raw'>
+    <pages>
+        <page name='BubbleSort'/>
+        <page name='SelectionSort'/>
+        <page name='InsertionSort'/>
+        <page name='MergeSort'/>
+        <page name='QuickSort'/>
+    </pages>
+</playground>
