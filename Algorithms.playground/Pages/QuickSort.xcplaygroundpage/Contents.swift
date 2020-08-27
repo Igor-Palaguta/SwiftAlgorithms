@@ -51,3 +51,5 @@ let testArray = [87, 4, 29, 20, 50, 52, 69, 5, 10, 16, 41, 30, 64, 83, 43, 77, 9
 
 XCTAssert(testArray.quickSorted() == testArray.sorted())
 XCTAssert(testArray.quickSorted(by: >) == testArray.sorted(by: >))
+
+//: [Heap Sort](HeapSort)
