@@ -27,6 +27,8 @@ extension MutableCollection where Index == Int, Element == Int {
     }
 }
 
-let testArray = [87, 4, 29, 20, 50, 52, 69, 5, 10, 16, 41, 30, 64, 83, 43, 77, 9, 28, 25, 23, 51, 13, 66, 58, 7, 35, 11, 78, 27, 97]
+let testArray = (1...1000).map { _ in Int(arc4random()) }
 
 XCTAssert(testArray.countingSorted(min: 0, max: 100) == testArray.sorted())
+
+//: [Radix Sort](RadixSort)

@@ -8,5 +8,6 @@
         <page name='QuickSort'/>
         <page name='HeapSort'/>
         <page name='CountingSort'/>
+        <page name='RadixSort'/>
     </pages>
 </playground>
