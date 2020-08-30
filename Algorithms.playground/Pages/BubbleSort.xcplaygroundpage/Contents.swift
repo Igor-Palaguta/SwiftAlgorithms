@@ -12,7 +12,7 @@ extension MutableCollection where Index == Int {
         for i in 0..<(count - 1) {
             for j in 0..<(count - i - 1) {
                 if areInIncreasingOrder(self[j + 1], self[j]) {
-                    (self[j], self[j + 1]) = (self[j + 1], self[j])
+                    swapAt(j, j + 1)
                 }
             }
         }

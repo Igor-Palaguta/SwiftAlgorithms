@@ -19,7 +19,7 @@ extension MutableCollection where Index == Int {
                 }
             }
             if minIndex != i {
-                (self[minIndex], self[i]) = (self[i], self[minIndex])
+                swapAt(minIndex, i)
             }
         }
     }

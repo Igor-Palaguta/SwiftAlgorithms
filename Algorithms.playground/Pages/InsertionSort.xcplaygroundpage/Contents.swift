@@ -15,7 +15,7 @@ extension MutableCollection where Index == Int {
             var currentIndex = i
             for j in stride(from: i - 1, through: 0, by: -1) {
                 if areInIncreasingOrder(self[currentIndex], self[j]) {
-                    (self[currentIndex], self[j]) = (self[j], self[currentIndex])
+                    swapAt(currentIndex, j)
                     currentIndex = j
                 }
             }
